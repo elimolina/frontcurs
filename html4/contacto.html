@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="myScript.js"></script>
+</head>
+
+<body>
+    <div>
+        <a href="#index" Contacto> Contacto</a>
+        <div>
+            <h1>Dades Básiques <br><br></h1>
+            <form action="/action_page.php">
+                <label for="fname">Nom:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="fname">Primer Cognom:</label>
+                <input type="text" id="lname" name="fname">
+                <label for="fname">Segon Cognom:</label>
+                <input type="text" id="lname" name="fname"><br><br>
+                <label for="fname">Tipus de document:</label>
+                <select id="document" name="document">
+                    <option value="DNI">DNI</option>
+                    <option value="NIE">NIE</option>
+                    <option value="PASSAPORT">PASSAPORT</option>
+                </select>
+                <label for="fname">Document d'identitat:</label>
+                <input type="text" id="docid" name="docid"><br><br>
+                <form>
+                    <label for="fname">Ets:</label><br>
+                    <input type="radio" id="dona" name="sexe" value="dona">
+                    <label for="fname">Dona</label>
+                    <input type="radio" id="home" name="sexe" value="home">
+                    <label for="fname">Home</label>
+                </form>
+                <form>
+                    <label for="fname">Data de naixement:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                </form>
+            </form>
+            <h2>Dades Contacte <br><br></h2>
+            <label for="fname">Adreça de correu:</label>
+                <input type="text" id="mail" name="mail">
+                <label for="fname">Telèfon de contacte:</label>
+                <input type="number" id="telf" name="telf"><br><br>
+            <form>
+                <label for="localizacion"> Vius a Barcelona</label><br>
+                <input type="radio" id="locsi" name="loc" value="locsi">
+                <label for="locsi">Si</label>
+                <input type="radio" id="locno" name="loc" value="locno">
+                <label for="locno">No</label><br><br>
+            </form>
+            <label for="document">Tipus de via:</label>
+                <select id="via" name="via">
+                    <option value="carrer">Carrer</option>
+                    <option value="avenida">Avinguda</option>
+                    <option value="paseo">Passeig</option>
+                </select>
+                <label for="adreça">Adreça:</label>
+                <input type="text" id="adreça" name="adreça">
+                <label for="num">Número:</label>
+                <input type="number" id="num" name="num"><br><br>
+                <label for="pis">Pis:</label>
+                <input type="number" id="pis" name="pis">
+                <label for="porta">Porta:</label>
+                <input type="number" id="porta" name="porta">
+                <label for="escala">Escala:</label>
+                <input type="text" id="escala" name="escala"><br><br>
+                <label for="cp">Còdic postal:</label>
+                <input type="number" id="cp" name="cp">
+                <label for="poblacion">Població:</label>
+                <input type="text" id="poblacion" name="poblacion"><br><br>
+                
+                <h1>Dades d'interés <br><br></h1>
+
+                <form>
+                    Tecnologies d'interés: <br><br>
+                    <input type="checkbox" id="java" name="java" value="tecno">
+                    <label for="java">Java</label><br>
+                    <input type="checkbox" id="css" name="css" value="tecno">
+                    <label for="css"> Css</label><br>
+                    <input type="checkbox" id="html" name="html" value="tecno">
+                    <label for="html"> html</label><br><br>
+
+                    El que més t'interessa apendre <br><br>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">HTML</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">JavaScript</label><br><br>
+                  </form>
+                
+                
+                <input type="submit" value="Submit">
+
+                
+        </div>
+
+
+
+       
+    </div>
+</body>
+
+</html>
