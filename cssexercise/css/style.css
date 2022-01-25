@@ -1,0 +1,66 @@
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #000 url("gradient.gif") bottom left repeat-x;
+    color: #fff;
+ }
+ td, th {
+    background: #fff;
+    color: #000;
+ }
+
+ h1 {
+   text-align: center;
+   color: red;
+  }
+  h2 {
+  text-align: center;
+  color: yellow;
+  }
+  p {
+   text-align: center;
+   color: green;
+  }
+  .city {
+   background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  }
+
+  body {
+   background-color: pink;
+  }
+
+  #ini {
+
+   background-color: lightpink;
+  }
+
+
+.city  {
+   border-radius: 5px;
+  }
+
+
+.circulo {
+   width: 100px;
+   height: 100px;
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   border-radius: 50%;
+   background: white;
+   border: 2px solid black;
+}
+
+.circulo2 {
+   width: 100px;
+   height: 100px;
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   border-radius: 50%;
+   background: red;
+   border: 2px solid black;
+   margin: 20px;
+}
