@@ -97,3 +97,35 @@
 
 /* Ejercicio 5 */
 
+#sonetos {
+    background-color: pink;
+}
+
+#ejercicio5 {
+    text-align: center;
+}
+
+#ejercicio5 article {
+    border: 1px solid black;
+    margin: 10px 150px;
+}
+
+.soneto1{
+    background-image: url("../img/fondo1.jpg");
+}
+
+.soneto2 {
+    background-image: url("../img/fondo2.jpg");
+    color: yellow;
+}
+
+.soneto3 {
+    background: url("../img/caballito.png") no-repeat, url("../img/fondo4.jpg");
+    color: red;
+}
+
+.soneto4 {
+    background-image: url("../img/caballito.png"), url("../img/fondo5.jpg");
+    background-size: contain, auto;
+    color: green;
+}

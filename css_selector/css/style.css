@@ -1,0 +1,34 @@
+/* Ejercicio 1 */
+
+*{
+    font: 1em;
+    font-family: 1.3 Arial, Helvetica, sans-serif;
+}
+p{
+    color: #555;
+}
+
+#primero p {
+    color: #336699;
+}
+
+a:link {
+    color: #CC3300;
+}
+
+#primero em {
+    background: #FFFFCC;
+    padding: 1em;
+}
+
+.especial {
+    background: #ffcc99;
+    border: 1px solid #ff9900;
+    pad: 1em;
+}
+
+.normal span {
+    font-weight: bold;
+}
+
+/* Ejercicio 2 */
