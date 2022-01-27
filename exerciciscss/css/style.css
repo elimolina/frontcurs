@@ -1,0 +1,99 @@
+/* Ejercicio 1 */
+
+.main {
+    border: 1px solid black;
+}
+
+.circulo{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 50%;
+    background: white;
+    border: 8px solid black;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.con-sombra{
+    box-shadow: 0px 6px 8px grey;
+}
+
+#especial{
+    background-color: yellow;
+    border: 8px solid orange;
+}
+
+
+/* Ejercicio 2 */
+
+
+#ejercicio2{
+    border: 40px solid red;
+}
+
+/* Ejercicio 3 */
+
+#ejercicio3{
+    text-align: center;
+}
+
+#ejercicio3 div {
+    border-radius: 0,5rem;
+    border: 1px solid grey;
+    color: white;
+    display: inline-block;
+    margin: 2rem;
+    padding: 60px;
+    width: 100px;
+}
+
+#box1 {
+    text-shadow: 1px 1px 1px grey;
+}
+
+#box2 {
+    background-color: purple;
+}
+
+#box3 {
+    background-color: goldenrod;
+}
+
+/* Ejercicio 4 */
+
+
+.red {
+    color: red;
+    font-size: 1,2rem;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+    font-weight: 600;
+    font-size: 1,2rem;
+}
+
+.lines {
+    text-decoration: underline;
+    border-top: 1px solid black;
+}
+
+.big {
+    font-size: 3rem;
+}
+
+.subline {
+    text-decoration: underline;
+}
+
+/* Ejercicio 5 */
+
