@@ -1,0 +1,21 @@
+.container {
+    background-color: yellow;
+    margin: 30px;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    align-content: flex-end ;
+
+}
+
+.item {
+    border: 5px solid lightskyblue;
+    padding: 2rem;
+    font-size: 1em;
+    background-color: blue;
+
+}
