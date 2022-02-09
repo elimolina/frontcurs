@@ -1,0 +1,46 @@
+h1 {
+    text-align:center
+}
+
+section {
+    margin: 16pxauto;
+    width: 80%
+}
+
+main {
+    border: 1px solid black;
+}
+
+.circulo {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 50%;
+    border-radius: 50% black;
+    background-color: white;
+    border: 15px, black;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.con-sombra {
+    box-shadow: 0px 6px 8px, grey;
+}
+
+#especial {
+    background-color: #ffff88;
+    border: 8px solid orange;
+}
+
+
+div {
+    margin: 4em;
+    padding: 4em;
+    border:  4em solid red;
+    background: white;
+    color: black;
+}
