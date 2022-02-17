@@ -2,27 +2,61 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Exercici 01</title>
+	<meta charset="UTF-8">
+	<title>exercici Maths 1</title>
 </head>
 
 <body>
-    <script type="text/javascript">
-        var firstNum = prompt("Introduce un number: ");
+	<!-- HTML -->
+	<h1>exercici01</h1>
 
-        // Check the which one is the greatest number or if they're the same
-        if (firstNum > 5) {
-            window.alert(firstNum + " is the greatest number.");
-        } else if (secondNum > firstNum) {
-            window.alert(secondNum + " is the greatest number.");
-        } else {
-            window.alert("They\'re the second number.'");
-        }
+	<!-- JS -->1
+	<script>
+		// Math es parte de la ventana global de JavaScript, tiene una serie de operaciones que pueden ser muy útiles y algunas actuan de forma algo extraña, asi que vamos a verlas.
+		let resultado;
 
-        if (firstNum == secondNum) {
-            document.write(" are the same ")
-        } else if (firstNum > secondNum) {
-            document.write(firstNum + " is the greatest number.")
-        } else {
-            document.write(secondNum + " is the greatest number.")
-        }
+		// Pi
+		resultado = Math.PI;
+		console.log("Pi " + resultado);
+
+		// redondeo
+		resultado = Math.round(2.5);
+		console.log("redondeo " + resultado);
+
+		// redondeo abajo o arriba (ceil o floor )
+		resultado = Math.ceil(2.2);
+		resultado = Math.floor(2.2);
+		console.log("ceil o floor " + resultado);
+
+		// Raiz cuadrada
+		resultado = Math.sqrt(144);
+		console.log("Raiz cuadrada " + resultado);
+
+		// Abssoluto
+		resultado = Math.abs(-300);
+		console.log("Abssoluto " + resultado);
+
+		// Potencia
+		resultado = Math.pow(8, 3);
+		console.log("Potencia " + resultado);
+
+		// Minimo
+		resultado = Math.min(3, 5, 1, 2, 9, 4, 2, -3);
+		console.log("Minimo " + resultado);
+
+		// Max
+		resultado = Math.max(4, 1, 21, 4, 15, 5, 11, 5);
+		console.log("Max " + resultado);
+
+		// Aleatorio
+		resultado = Math.random();
+		console.log("Aleatorio " + resultado);
+
+		// Aleatorio dentro de un rango:
+		resultado = Math.floor(Math.random() * 10);
+		console.log("Aleatorio dentro de un rango: " + resultado);
+		console.log(resultado);
+	</script>
+</body>
+
+</html>
