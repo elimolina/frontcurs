@@ -6,36 +6,35 @@
 </head>
 <body>
     <script type="text/javascript">
-        const producto = "Monitor 20 pulgadas";
+        let producto = "Monitor 20 pulgadas";
         
         //Apartado A remplazar una palabra por otra
 
+        console.log(producto); 
+        producto= producto.replace("pulgadas","'");
         console.log(producto);
-        let producto2; 
-        producto2= producto.replace("pulgadas","'");
-        console.log(producto2);
-        producto2= producto.replace("20","40");
+        let producto2= producto.replace("20","40");
         console.log(producto2);
         
 
         //Apartado B extraer posición del texto
-
-        console.log(producto2.slice(8,19));
+        descProducto= "Monitor 40'";
+        var posicionPulgadas= descProducto.indexOf("40'");
+        console.log("posicion pulgadas" + posicionPulgadas);
+        var pulgadas= descProducto.slice(posicionPulgadas);
+        pulgadas= descProducto.slice(posicionPulgadas);
+        console.log("pulgadas" + pulgadas);
+        
 
         //Apartado C
 
+        console.log("cadena origen: " + descProducto);
         console.log(producto.slice(2,9))
 
         //Apartado D
 
         let nombre= "Eli";
-        console.log(nombre.slice(0,1   ));
-
-
-
-
-
-        
+        console.log(nombre.slice(0,1));
 
 	</script>
 </body>
