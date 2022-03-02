@@ -10,21 +10,18 @@
 
 <body>
     <script>
-        function numero (a,b) {
-            if (a < b) {
-                return(`NUMERO  ${a} ES MENOR`)
-            } else if (a > b) {
-                return(`NUMERO ${b}  ES MENOR`);
-            } else {
-              return("SON IGUALES");  
+        function validaciónEmail (direccion) {
+            if (direccion.search("@") >0) {
+                return "tu correo es " + direccion;
+            } else  {
+                return "tu correo no es valido" ;
+            }  
             } 
             
         }
          
-    let a;
-    let b;
-    a= 8;
-    b=8;
+    let direccion;
+    
     console.log(numero(a,b));
 
         
