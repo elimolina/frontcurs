@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercici 02.</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        const carrito = [];
+
+        console.log("vacio:" + carrito);
+
+        producto5 = {
+            nombre: "macboob",
+            precio: 1200,
+        }
+        carrito.push(producto5);
+
+
+        console.log("afegim 1er:")
+        console.table(carrito);
+
+        //añadir elemento al carrito
+
+        const producto0 = {
+            nombre: "iphone11",
+            precio: 700,
+        }
+
+        carrito.push(producto0);
+
+        console.log("afegim 2on:")
+        console.table(carrito);
+
+        // añadir producto al principio del array
+
+        const producto07 = {
+            nombre: "watch",
+            precio: 250,
+        }
+        carrito.unshift(producto07);
+        console.log("afegim 3er:")
+        console.table(carrito);
+
+
+        // Borrar ultimo elemento del array
+        var element;
+        element = carrito.pop();
+        
+        console.log("eliminem ultima:")
+        console.table(carrito);
+
+//Borrar primer elemento del array
+
+        /*  carrito.shift();
+         console.log(carrito); */
+
+    </script>
+</body>
+
+</html> */

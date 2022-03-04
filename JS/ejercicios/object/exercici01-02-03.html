@@ -32,19 +32,36 @@
     //parte 2
 
     const subTotal = {
-            type: "jewell",
-            carro: {
+            beauty: {
                 value: 15,
                 quantitat: 3,
                 discount: 10,
             }
         }
 
-    console.log(subTotal.carro.quantitat);
+    console.log(subTotal.beauty.quantitat);
     
 
     //parte 3
 
+    const carList = [{
+        id: 25151,
+        name:"pintl25151",
+        price:15.99,
+        quantity: 2,
+        subtotalWithDiscount: 5,
+        type: "beauty",
+    },{
+        id: 18954,
+        name: "pulsera18954",
+        price: 22,
+        quantity: 12,
+        subtotalWithDiscount: 5,
+        type: "jewell",
+    }
+   ]
+
+   console.log(carList[1].price);
  
 
 	</script>
