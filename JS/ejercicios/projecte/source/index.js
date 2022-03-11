@@ -2,7 +2,6 @@
 
 // total de la compra
 
-var total = 0;
 
 
 // Exercici 0 : mostrar cartList
@@ -13,13 +12,17 @@ function ShowCartList() {
     console.table(cartList);
 }
 
+ShowCartList();
+
 function showPrices() {
     console.table(subtotal);
 }
 
 function ShowCart() {
-    console.table(cart);
+    console.table(cartList);
 }
+
+ShowCart();
 
 
 // Exercici 1: afegir producte a l'array de la cartlist
@@ -37,7 +40,7 @@ function buy(id) {
         }
     })
     cartList.push(productBuy)
-    console.table(cart); 
+     
 
 
     // opció 3 simplificar con arrow funcions =>
@@ -48,7 +51,50 @@ function buy(id) {
 // exercici 2 eliminar tots els productes de la CartList
 function cleanCart() {
 
-    //eliminar uno por uno los elementos
     
+
+
+    console.log(cartList.length);
+
+    cartList.splice(0, cartList.length)
+
+
+    //Més eficient
+
+    cartList.length = 0;
+
+    cartList= [];
 }
 
+
+
+
+//eliminar uno por uno los elementos
+    /*while (carList.length > 0) {
+        cartList.pop();
+    }*/
+
+
+// crear un for loop en la array cartList
+/* calcula el subtotal  dependiendo del tipo de compra*/
+
+function subtotal (){
+    for(var i=0; i < cartList.length; i++){
+        switch(cartList[i].type){
+            case "clothes":
+                SubTotal.clothes.value += cartList[i].price;
+                break;
+            case "jewell":
+                SubTotal.jewell.value += cartList[i].price;
+                break;
+            case "beauty":
+                SubTotal.beauty.value += cartList[i].price;
+                break;
+            default:
+                console.log("hi ha un error"); 
+        }
+    }
+}
+
+
+// eliminar
