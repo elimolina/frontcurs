@@ -1,3 +1,10 @@
+var total = 0;
+
+
+var cart = [];
+var cartList = []; 
+var cleancart= [];
+
 var products = [{
         id: 1,
         name: "blue ring",
@@ -55,3 +62,17 @@ var products = [{
     },
 ]
 
+var SubTotal = {
+    beauty:{
+        value:0,
+        discount: 0
+    },
+    jewell: {
+        value: 0,
+        discount: 0
+    },
+    clothes: {
+        value: 0,
+        discount:0 
+    },
+}
