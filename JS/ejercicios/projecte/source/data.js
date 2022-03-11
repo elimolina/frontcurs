@@ -1,9 +1,8 @@
-const articles = [
-    {
-      id: 1,
-      name: "blue ring",
-      price: 10.9,
-      type: `jewell`,
+var products = [{
+        id: 1,
+        name: "blue ring",
+        price: 10.9,
+        type: `jewell`,
     },
 
     {
@@ -55,3 +54,4 @@ const articles = [
         type: `beauty`,
     },
 ]
+
