@@ -13,7 +13,7 @@ const movies = [
       director: 'Frank Darabont',
       duration: '2h',
       genre: ['Action'],
-      score: ''
+      score: ''     
     },
     {
       title: 'The Godfather',
