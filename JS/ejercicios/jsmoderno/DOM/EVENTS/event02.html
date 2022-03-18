@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Click me.</p>
+
+    <script>
+
+        //document.getElementById("demo").addEventListener("mousedown", mouseDown);
+        //document.getElementById("demo").addEventListener("mouseup", mouseUp);
+        var p = document.getElementById("demo")
+
+        p.addEventListener("mousedown", mouseDown);
+        p.addEventListener("mouseup", mouseUp);
+        p.addEventListener("onfocus", mouseFocus);
+        
+        function mouseDown() {
+            document.getElementById("demo").innerHTML = "The mouse button is held down.";
+        }
+        function mouseUp() {
+            document.getElementById("demo").innerHTML = "You released the mouse button.";
+        }
+
+        function mouseFocus() {
+            alert("focus");
+            document.getElementById("demo").innerHTML ="focus";
+        }
+
+        
+
+    </script>
+</body>
+
+    
+</html>
