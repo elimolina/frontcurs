@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //Fent servir promeses, agrega cada 3 segons un país: Alemania, Francia, Inglaterra,Italia. Capturar errors no controlats.
+    
+        const paises = [];
+        const nuevoPais = pais => new Promise(resolve => {
+            setTimeout(() => {
+                paises.push(pais);
+                resolve(`Agregado: ${pais}`)
+            }, 3000);
+        });
+
+        
+
+        
+
+    nuevoPais('Alemania')
+        .then(result => {
+            console.log(result);
+            console.log(paises);
+            return nuevoPais('Francia');
+        })
+        .then(result =>{
+            console.log(result);
+            console.log(paises);
+            return nuevoPais('Inglaterra');
+        })
+        .then(result => {
+            console.log(result);
+            console.log(paises);
+            return nuevoPais('Italia');
+
+        }).then(result => {     //Esto es para printar el último pais 
+            console.log(result);
+            console.log(paises);
+
+        }).then(result => {   //Esto crea un error ya que italia no lleva ''
+            console.log(result);
+            console.log(paises);
+            return nuevoPais(italia);  
+        })     
+        .catch(error => {
+            console.log("Hi ha un error controlat" + error);
+        })
+
+    </script>
+
+</body>
+
+</html>
+
+
