@@ -13,14 +13,18 @@
   <template id="ejemplo">
     <div>     
         <b>{{ mensaje }}</b>
-        <img :src="imagen" />      
+        <img :src="imagen" v-show="mostrar" />   
+        <p v-for="elements in curso"></p>   
       <button @click="toggleMostrar">Mostrar/Ocultar</button>
+      <!--<p v-for="name in cursos"> {{name}}</p> -->
+      <p v-for="(name,key) in cursos"> {{key}} {{name}}</p>
+
        <!--v-on:click es lo mismo que @click-->
     </div>
   </template>  
 
   <!--OJO això ha d'estar aquí al final -->
-  <script src="js/javascript.js"></script>
+  <script src="../ex_mostrarOcultar 01 inici/js/javascript.js"></script>
 
 </body>
 
