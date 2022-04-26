@@ -1,0 +1,24 @@
+{
+    "name": "frontcurs",
+    "version": "1.0.0",
+    "description": "pppppppp\r jjjj\r jgsaf\r dsfgjnsdji\r segundo\r nuevo\r terceros",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/elimolina/frontcurs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/elimolina/frontcurs/issues"
+    },
+    "homepage": "https://github.com/elimolina/frontcurs#readme",
+    "dependencies": {
+      "json-server": "^0.17.0"
+    }
+  }
+  
